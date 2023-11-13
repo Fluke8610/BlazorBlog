@@ -1,0 +1,339 @@
+/* /Components/AboutComponent.razor.rz.scp.css */
+article[b-ul17egdk0o] {
+    width: 50%;
+    height: 60vh;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+}
+
+article[b-ul17egdk0o]  .Article-Title{
+    width: 100%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+article[b-ul17egdk0o]  .card-img-top{
+    width: 270px;
+    height: 150px;
+}
+
+article[b-ul17egdk0o]  .card{
+    padding: 0.2rem 0.6rem;
+}
+/* /Components/BlogComponent.razor.rz.scp.css */
+aside[b-q65x1xvy2i] {
+    width: 25%;
+    height: 65vh;
+    border-left: 1px solid #000000;
+    padding: 0.5rem 1.5rem;
+    float: right;
+    display: inline-block;
+}
+
+aside[b-q65x1xvy2i]  .Aside-Title {
+    width: 100%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+aside[b-q65x1xvy2i]  h3 {
+    margin: 0.5rem 0rem;
+}
+
+aside[b-q65x1xvy2i]  .card {
+    justify-content: center !important;
+}
+
+aside[b-q65x1xvy2i]  .card {
+    margin: 0.3rem 0rem;
+}
+
+aside[b-q65x1xvy2i]  .card-header {
+    background-color: lightslategray;
+}
+
+aside[b-q65x1xvy2i]  .card-header h5{
+    display: flex;
+    justify-content: center;
+}
+/* /Components/FooterComponent.razor.rz.scp.css */
+.FooterBar[b-rnr9jka34z]{
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    background-color: lightgray;
+    color: #ffffff !important;
+    padding: 0.6rem 3rem;
+    overflow: hidden;
+}
+
+.FooterBar[b-rnr9jka34z]  #fontawesomeicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar[b-rnr9jka34z]  .block{
+    width: 100px;
+    display: inline-block;
+}
+
+.FooterBar[b-rnr9jka34z]  #bootstrapicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar[b-rnr9jka34z]  #linkedinicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar[b-rnr9jka34z]  a img{
+    width: 40px;
+    height: 40px;
+}
+
+.FooterBar[b-rnr9jka34z]  .copyright{
+    width: 70%;
+    justify-content: center;
+    color: #000000;
+    display: inline-flex;
+}
+/* /Components/HeaderBar.razor.rz.scp.css */
+.top-row[b-ypyhudfenq] {
+    border-bottom: 1px solid #000000;
+    justify-content: flex-start;
+    height: 20vh;
+    width: 100vw;
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.navbar-logo[b-ypyhudfenq]{
+    width: 10vw;
+    height: 100%;
+    margin: 0rem 1rem;
+    padding: 0rem 1rem;
+    border: 0rem 1rem;
+}
+
+img[b-ypyhudfenq]{
+    border-radius: 50%;
+    display: inline-block;
+    padding: 1rem 1rem;
+    margin: 0;
+    z-index: 0;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+h1[b-ypyhudfenq]{
+    display: block;
+    font-size: 4.5rem;
+    padding: 0.3rem;
+    margin: 0.5rem 3rem;
+    z-index: 0;
+    position: relative;
+}
+
+h2[b-ypyhudfenq] {
+    display: block;
+    padding: 0.3rem;
+    margin: 0.5rem 5rem;
+    z-index: 0;
+    position: relative;
+}
+
+.banner[b-ypyhudfenq]{
+    z-index: -1;
+    border-radius: 0%;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    height: 20vh;
+    width: 100vw;
+    opacity: 0.6;
+    position: absolute;
+}
+/* /Components/NavigationComponent.razor.rz.scp.css */
+.NavigationBar[b-3s56jp5tbh] {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    display: inline-flex;
+    margin: 0px 0px;
+    padding: 0.2rem 0.2rem;
+    border: 0px;
+    justify-content: center;
+}
+
+[b-3s56jp5tbh] a {
+    height: 100%;
+    width: auto;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 6rem;
+    text-decoration: none;
+    color: gray;
+}
+
+[b-3s56jp5tbh] .active {
+    color: antiquewhite;
+}
+
+[b-3s56jp5tbh] a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 5%;
+}
+/* /Components/ProjectComponent.razor.rz.scp.css */
+aside[b-84ampomkar]{
+    width: 25%;
+    height: 65vh;
+    border-right: 1px solid #000000;
+    padding: 0.5rem 1.5rem;
+    float: left;
+    display: inline-block;
+}
+
+aside[b-84ampomkar]  .Aside-Title{
+    width: 100%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+aside[b-84ampomkar]  h3{
+    margin: 0.5rem 0rem;
+}
+
+aside[b-84ampomkar]  .card{
+    justify-content: center !important;
+}
+
+aside[b-84ampomkar]  .card{
+    margin: 0.3rem 0rem;
+}
+
+aside[b-84ampomkar]  .card-header {
+    background-color: lightslategray;
+}
+
+aside[b-84ampomkar]  .card-header h5{
+    display: flex;
+    justify-content: center;
+}
+/* /MainLayout.razor.rz.scp.css */
+body[b-sp2zdgxnur]{
+    overflow: hidden;
+}
+
+.page[b-sp2zdgxnur]{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.HeaderContent[b-sp2zdgxnur] {
+    position: relative;
+}
+
+.NavigationMenu[b-sp2zdgxnur]{
+    position: relative;
+}
+
+main[b-sp2zdgxnur]{
+    position: relative;
+    margin: 0.2rem 0rem;
+}
+
+.FooterContent[b-sp2zdgxnur]{
+    position: relative;
+}
+/* /Pages/AboutPageComponent.razor.rz.scp.css */
+article[b-44yvxf54iw]{
+    height: 67vh;
+    width: 100%;
+}
+
+article[b-44yvxf54iw]  .Article-Title {
+    width: 100%;
+    height: 5%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+article[b-44yvxf54iw]  .content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 0.2rem 0.2rem;
+}
+
+article[b-44yvxf54iw]  .left{
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #000000;
+    padding: 0.2rem 2rem;
+    display: inline-block;
+    flex: 1;
+    overflow: scroll;
+}
+
+article[b-44yvxf54iw]  .right{
+    width: 25%;
+    height: 100%;
+    border-left: 1px solid #000000;
+    padding: 0.2rem 2rem;
+    display: inline-block;
+    flex: 1;
+}
+
+article[b-44yvxf54iw]  section{
+    width: 50%;
+    height: 100%;
+    padding: 0.2rem 2rem;
+    display: inline-block;
+    flex: 1;
+}
+
+article[b-44yvxf54iw]  .Sub-Title{
+    justify-content: center;
+    display: flex;
+}
+
+article[b-44yvxf54iw]  .card{
+    margin: 0.6rem 0rem;
+}
+
+article[b-44yvxf54iw]  .card-header{
+    background-color: lightslategray;
+}
+
+article[b-44yvxf54iw]  .left .card-header h5{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+article[b-44yvxf54iw]  .left .card-body h6{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+/* /Pages/Index.razor.rz.scp.css */
+.MainContent[b-hk4t29bu80]{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+
+    width: 100%;
+
+    display: inline-block;
+}
