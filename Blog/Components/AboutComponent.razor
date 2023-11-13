@@ -1,0 +1,47 @@
+﻿<article>
+    <div class="Article-Title">
+        <h3>Introduction</h3>
+    </div>
+    <p>
+        I studied as a Software Engineer at Staffordshire University, I have a degree in Software Engineering and 9+ years experience encompassing various industries.<br/>
+        These industries include Simulation, Avionic Systems, Medical devices and Betting Software.<br />
+        My long term goal is to attain a masters in Software Engineering or Computer Science with the possibility of then going to do a PHD.
+    </p>
+    <div class="card-group">
+        <div class="card">
+            <img class="card-img-top" src="@imageResource1" alt="Snooker Table" />
+            <div class="card-body">
+                <h5 class="card-title">Snooker</h5>
+                <p class="card-text">
+                    I enjoy cue sports, I love to spend time playing Pool, Snooker and American Pool.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="@imageResource2" alt="Picture of me" />
+            <div class="card-body">
+                <h5 class="card-title">C# Programming</h5>
+                <p class="card-text">
+                    I enjoy programming in C#, it is very versatile for creating applications and web apps. I use this if I don't fancy programming in C or C++.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="@imageResource3" alt="C Code" />
+            <div class="card-body">
+                <h5 class="card-title">C Programming</h5>
+                <p class="card-text">
+                    I enjoy programming in C where I can, I especially enjoy the feeling of being able to create an application / library or diagnose and fix a bug in an implementation.<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <p>This site was made using Blazor WASM as an SPA, most of the CSS is from the Bootstrap NuGet package. Link to Bootstrap and FontAwesome added below on the footer. </p>
+</article>
+
+@code {
+    private string? imageResource1 = "Resources/Images/Hobbies/Snooker.png";
+    private string? imageResource2 = "Resources/Images/Code/CS/csharpconsole.png";
+    private string? imageResource3 = "Resources/Images/Code/C/c-queue-imp.png";
+}

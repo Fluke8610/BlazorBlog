@@ -1,0 +1,31 @@
+﻿<div class="FooterBar">
+    @* Todo - Linkedin logo for link on footer, copyright etc. *@
+    <div class="copyright">
+        <h2>&copy; Chris Moore 2023</h2>
+    </div>
+    <div class="block">
+        <a id="fontawesomeicon" href="https://fontawesome.com/">
+            <span><img src="@fontAwesomeIconResource" alt="Font Awesome Icon" /></span>
+        </a>
+@*         <p>Font Awesome</p> *@
+    </div>
+    <div class="block">
+        <a id="bootstrapicon" href="https://getbootstrap.com/">
+            <span><img src="@bootstrapIconResource" alt="BootStrap Icon" /></span>
+        </a>
+@*         <p>BootStrap</p> *@
+    </div>
+    <div class="block">
+        <a id="linkedinicon" href="https://www.linkedin.com/in/chris-moore-2894024b">
+            <span><img src="@linkedinIconResource" alt="Linkedin Icon" /></span>
+        </a>
+@*         <p>Linkedin</p> *@
+    </div>
+</div>
+
+@code {
+    private string? linkedinIconResource = "Resources/Icons/FontAwesomeBrands/linkedin.svg";
+    private string? fontAwesomeIconResource = "Resources/Icons/FontAwesomeBrands/font-awesome.svg";
+    private string? bootstrapIconResource = "Resources/Icons/FontAwesomeBrands/bootstrap.svg";
+
+}

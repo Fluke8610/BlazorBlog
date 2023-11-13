@@ -1,0 +1,44 @@
+﻿.FooterBar{
+    width: 100vw;
+    height: 8vh;
+    position: relative;
+    background-color: lightgray;
+    color: #ffffff !important;
+    padding: 0.6rem 3rem;
+    overflow: hidden;
+}
+
+.FooterBar ::deep #fontawesomeicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar ::deep .block{
+    width: 100px;
+    display: inline-block;
+}
+
+.FooterBar ::deep #bootstrapicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar ::deep #linkedinicon{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+.FooterBar ::deep a img{
+    width: 40px;
+    height: 40px;
+}
+
+.FooterBar ::deep .copyright{
+    width: 70%;
+    justify-content: center;
+    color: #000000;
+    display: inline-flex;
+}

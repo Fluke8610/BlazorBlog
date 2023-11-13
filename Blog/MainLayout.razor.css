@@ -1,0 +1,27 @@
+﻿body{
+    overflow: hidden;
+}
+
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.HeaderContent {
+    position: relative;
+}
+
+.NavigationMenu{
+    position: relative;
+}
+
+main{
+    position: relative;
+    margin: 0.2rem 0rem;
+}
+
+.FooterContent{
+    position: relative;
+}

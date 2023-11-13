@@ -1,0 +1,22 @@
+﻿article {
+    width: 50%;
+    height: 60vh;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+}
+
+article ::deep .Article-Title{
+    width: 100%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+article ::deep .card-img-top{
+    width: 270px;
+    height: 150px;
+}
+
+article ::deep .card{
+    padding: 0.2rem 0.6rem;
+}

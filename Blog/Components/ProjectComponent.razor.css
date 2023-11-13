@@ -1,0 +1,36 @@
+﻿aside{
+    width: 25%;
+    height: 65vh;
+    border-right: 1px solid #000000;
+    padding: 0.5rem 1.5rem;
+    float: left;
+    display: inline-block;
+}
+
+aside ::deep .Aside-Title{
+    width: 100%;
+    padding: 0.2rem 0rem;
+    justify-content: center;
+    display: flex;
+}
+
+aside ::deep h3{
+    margin: 0.5rem 0rem;
+}
+
+aside ::deep .card{
+    justify-content: center !important;
+}
+
+aside ::deep .card{
+    margin: 0.3rem 0rem;
+}
+
+aside ::deep .card-header {
+    background-color: lightslategray;
+}
+
+aside ::deep .card-header h5{
+    display: flex;
+    justify-content: center;
+}

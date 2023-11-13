@@ -1,0 +1,29 @@
+﻿.NavigationBar {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    display: inline-flex;
+    margin: 0px 0px;
+    padding: 0.2rem 0.2rem;
+    border: 0px;
+    justify-content: center;
+}
+
+::deep a {
+    height: 100%;
+    width: auto;
+    padding: 0.5rem 0.5rem;
+    margin: 0rem 6rem;
+    text-decoration: none;
+    color: gray;
+}
+
+::deep .active {
+    color: antiquewhite;
+}
+
+::deep a:hover{
+    color: red;
+    background-color: white;
+    border-radius: 5%;
+}
