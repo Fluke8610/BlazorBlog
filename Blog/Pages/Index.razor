@@ -1,33 +1,13 @@
 ﻿@page "/"
-@page "/{Id:int}"
 
 <div class="MainContent">
-    @switch (Id)
-    {
-        case 1:
-            <ProjectComponent />
-            <AboutComponent />
-            <BlogComponent />
-            break;
-        case 2:
-            <AboutPageComponent />
-            break;
-        default:
-            <ProjectComponent />
-            <AboutComponent />
-            <BlogComponent />
-            break;
-    }
+    <ProjectComponent />
+    <AboutComponent />
+    <BlogComponent />
 </div>
 
 @code{
 
-    [Parameter]
-    public int Id { get; set; }
-
-    protected override void OnInitialized()
-    {
-        Id = 1;
-    }
+    
 
 }
