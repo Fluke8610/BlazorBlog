@@ -1,64 +1,48 @@
-﻿article{
-    height: 67vh;
+﻿.Article-Title {
     width: 100%;
-}
-
-article ::deep .Article-Title {
-    width: 100%;
-    height: 5%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
-article ::deep .content{
+ .content{
     width: 100%;
-    height: 90%;
     display: flex;
     padding: 0.2rem 0.2rem;
 }
 
-article ::deep .left{
-    width: 25%;
-    height: 100%;
+.row ::deep .left{
     border-right: 1px solid #000000;
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
     overflow: scroll;
 }
 
-article ::deep .right{
-    width: 25%;
-    height: 100%;
+.row ::deep .right{
     border-left: 1px solid #000000;
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
 }
 
-article ::deep section{
-    width: 50%;
-    height: 100%;
+.row ::deep section{
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
 }
 
-article ::deep .Sub-Title{
+.row ::deep .Sub-Title{
     justify-content: center;
     display: flex;
 }
 
-article ::deep .card{
+.row ::deep .card{
     margin: 0.6rem 0rem;
 }
 
-article ::deep .card-header{
+.row ::deep .card-header{
     background-color: lightslategray;
 }
 
-article ::deep .left .card-header h5{
+.row ::deep .left .card-header h5{
     display: flex;
     font-weight: bold;
     justify-content: center;

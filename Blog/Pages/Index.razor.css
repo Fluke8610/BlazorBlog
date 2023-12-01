@@ -1,8 +1,33 @@
-﻿.MainContent{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-
-    width: 100%;
-
-    display: inline-block;
+﻿@media only screen and (max-width: 768)
+{
+    .MainContent {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: block;
+    }
 }
+
+@media only screen and (max-width: 1044) 
+{
+    .MainContent {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: inline-flex;
+        overflow:auto;
+    }
+}
+
+@media only screen and (max-width: 1920) 
+{
+    .MainContent {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: inline-flex;
+        overflow: auto;
+    }
+
+}
+

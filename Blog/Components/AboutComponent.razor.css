@@ -1,8 +1,9 @@
 ﻿article {
-    width: 50%;
-    height: 60vh;
-    padding: 0.5rem 1.5rem;
-    display: inline-block;
+    /*width: 50%;*/
+    /*height: 60vh;*/
+    padding: 0.5rem 0.5rem;
+    margin: 0px;
+    display: grid;
 }
 
 article ::deep .Article-Title{
@@ -13,10 +14,20 @@ article ::deep .Article-Title{
 }
 
 article ::deep .card-img-top{
-    width: 270px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 article ::deep .card{
     padding: 0.2rem 0.6rem;
+}
+
+article ::deep .card-title
+{
+    font-size: medium;
+}
+
+article ::deep .card-text
+{
+    font-size: medium;
 }

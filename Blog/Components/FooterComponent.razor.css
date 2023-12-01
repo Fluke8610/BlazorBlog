@@ -1,6 +1,5 @@
 ﻿.FooterBar{
     width: 100vw;
-    height: 8vh;
     position: relative;
     background-color: lightgray;
     color: #ffffff !important;
@@ -37,7 +36,6 @@
 }
 
 .FooterBar ::deep .copyright{
-    width: 70%;
     justify-content: center;
     color: #000000;
     display: inline-flex;

@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a8a8de09-bf91-4ec6-9726-93698d596554</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -85,6 +86,11 @@
     <None Include="wwwroot\css\bootstrap\js\bootstrap.js.map" />
     <None Include="wwwroot\css\bootstrap\js\bootstrap.min.js" />
     <None Include="wwwroot\css\bootstrap\js\bootstrap.min.js.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\Scripts\" />
   </ItemGroup>
 
 </Project>
