@@ -1,9 +1,10 @@
 /* /Components/AboutComponent.razor.rz.scp.css */
 article[b-ul17egdk0o] {
-    width: 50%;
-    height: 60vh;
-    padding: 0.5rem 1.5rem;
-    display: inline-block;
+    /*width: 50%;*/
+    /*height: 60vh;*/
+    padding: 0.5rem 0.5rem;
+    margin: 0px;
+    display: grid;
 }
 
 article[b-ul17egdk0o]  .Article-Title{
@@ -14,21 +15,29 @@ article[b-ul17egdk0o]  .Article-Title{
 }
 
 article[b-ul17egdk0o]  .card-img-top{
-    width: 270px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
 }
 
 article[b-ul17egdk0o]  .card{
     padding: 0.2rem 0.6rem;
 }
+
+article[b-ul17egdk0o]  .card-title
+{
+    font-size: medium;
+}
+
+article[b-ul17egdk0o]  .card-text
+{
+    font-size: medium;
+}
 /* /Components/BlogComponent.razor.rz.scp.css */
 aside[b-q65x1xvy2i] {
-    width: 25%;
-    height: 65vh;
     border-left: 1px solid #000000;
     padding: 0.5rem 1.5rem;
     float: right;
-    display: inline-block;
+    display: grid;
 }
 
 aside[b-q65x1xvy2i]  .Aside-Title {
@@ -61,7 +70,6 @@ aside[b-q65x1xvy2i]  .card-header h5{
 /* /Components/FooterComponent.razor.rz.scp.css */
 .FooterBar[b-rnr9jka34z]{
     width: 100vw;
-    height: 8vh;
     position: relative;
     background-color: lightgray;
     color: #ffffff !important;
@@ -98,7 +106,6 @@ aside[b-q65x1xvy2i]  .card-header h5{
 }
 
 .FooterBar[b-rnr9jka34z]  .copyright{
-    width: 70%;
     justify-content: center;
     color: #000000;
     display: inline-flex;
@@ -107,7 +114,6 @@ aside[b-q65x1xvy2i]  .card-header h5{
 .top-row[b-ypyhudfenq] {
     border-bottom: 1px solid #000000;
     justify-content: flex-start;
-    height: 20vh;
     width: 100vw;
     display: inline-flex;
     align-items: flex-start;
@@ -136,7 +142,7 @@ img[b-ypyhudfenq]{
 h1[b-ypyhudfenq]{
     display: block;
     font-size: 4.5rem;
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin: 0.5rem 3rem;
     z-index: 0;
     position: relative;
@@ -144,7 +150,7 @@ h1[b-ypyhudfenq]{
 
 h2[b-ypyhudfenq] {
     display: block;
-    padding: 0.3rem;
+    padding: 0.1rem;
     margin: 0.5rem 5rem;
     z-index: 0;
     position: relative;
@@ -156,7 +162,6 @@ h2[b-ypyhudfenq] {
     margin: 0;
     padding: 0;
     margin: 0;
-    height: 20vh;
     width: 100vw;
     opacity: 0.6;
     position: absolute;
@@ -164,7 +169,6 @@ h2[b-ypyhudfenq] {
 /* /Components/NavigationComponent.razor.rz.scp.css */
 .NavigationBar[b-3s56jp5tbh] {
     width: 100vw;
-    height: 5vh;
     background-color: black;
     display: inline-flex;
     margin: 0px 0px;
@@ -193,12 +197,10 @@ h2[b-ypyhudfenq] {
 }
 /* /Components/ProjectComponent.razor.rz.scp.css */
 aside[b-84ampomkar]{
-    width: 25%;
-    height: 65vh;
     border-right: 1px solid #000000;
     padding: 0.5rem 1.5rem;
     float: left;
-    display: inline-block;
+    display: grid;
 }
 
 aside[b-84ampomkar]  .Aside-Title{
@@ -257,67 +259,51 @@ main[b-sp2zdgxnur]{
     position: relative;
 }
 /* /Pages/AboutPageComponent.razor.rz.scp.css */
-article[b-44yvxf54iw]{
-    height: 67vh;
+.Article-Title[b-44yvxf54iw] {
     width: 100%;
-}
-
-article[b-44yvxf54iw]  .Article-Title {
-    width: 100%;
-    height: 5%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
-article[b-44yvxf54iw]  .content{
+ .content[b-44yvxf54iw]{
     width: 100%;
-    height: 90%;
     display: flex;
     padding: 0.2rem 0.2rem;
 }
 
-article[b-44yvxf54iw]  .left{
-    width: 25%;
-    height: 100%;
+.row[b-44yvxf54iw]  .left{
     border-right: 1px solid #000000;
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
     overflow: scroll;
 }
 
-article[b-44yvxf54iw]  .right{
-    width: 25%;
-    height: 100%;
+.row[b-44yvxf54iw]  .right{
     border-left: 1px solid #000000;
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
 }
 
-article[b-44yvxf54iw]  section{
-    width: 50%;
-    height: 100%;
+.row[b-44yvxf54iw]  section{
     padding: 0.2rem 2rem;
-    display: inline-block;
-    flex: 1;
+    display: block;
 }
 
-article[b-44yvxf54iw]  .Sub-Title{
+.row[b-44yvxf54iw]  .Sub-Title{
     justify-content: center;
     display: flex;
 }
 
-article[b-44yvxf54iw]  .card{
+.row[b-44yvxf54iw]  .card{
     margin: 0.6rem 0rem;
 }
 
-article[b-44yvxf54iw]  .card-header{
+.row[b-44yvxf54iw]  .card-header{
     background-color: lightslategray;
 }
 
-article[b-44yvxf54iw]  .left .card-header h5{
+.row[b-44yvxf54iw]  .left .card-header h5{
     display: flex;
     font-weight: bold;
     justify-content: center;
@@ -329,11 +315,36 @@ article[b-44yvxf54iw]  .left .card-body h6{
     justify-content: center;
 }
 /* /Pages/Index.razor.rz.scp.css */
-.MainContent[b-hk4t29bu80]{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-
-    width: 100%;
-
-    display: inline-block;
+@media only screen and (max-width: 768)
+{
+    .MainContent[b-hk4t29bu80] {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: block;
+    }
 }
+
+@media only screen and (max-width: 1044) 
+{
+    .MainContent[b-hk4t29bu80] {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: inline-flex;
+        overflow:auto;
+    }
+}
+
+@media only screen and (max-width: 1920) 
+{
+    .MainContent[b-hk4t29bu80] {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 100%;
+        display: inline-flex;
+        overflow: auto;
+    }
+
+}
+
