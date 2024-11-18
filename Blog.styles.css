@@ -1,74 +1,74 @@
 /* /Components/AboutComponent.razor.rz.scp.css */
-article[b-ul17egdk0o] {
+/*article {*/
     /*width: 50%;*/
     /*height: 60vh;*/
-    padding: 0.5rem 0.5rem;
+    /*padding: 0.5rem 0.5rem;
     margin: 0px;
     display: grid;
 }
 
-article[b-ul17egdk0o]  .Article-Title{
+article ::deep .Article-Title{
     width: 100%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
-article[b-ul17egdk0o]  .card-img-top{
+article ::deep .card-img-top{
     max-width: 100%;
     height: auto;
 }
 
-article[b-ul17egdk0o]  .card{
+article ::deep .card{
     padding: 0.2rem 0.6rem;
 }
 
-article[b-ul17egdk0o]  .card-title
+article ::deep .card-title
 {
     font-size: medium;
 }
 
-article[b-ul17egdk0o]  .card-text
+article ::deep .card-text
 {
     font-size: medium;
-}
+}*/
 /* /Components/BlogComponent.razor.rz.scp.css */
-aside[b-q65x1xvy2i] {
+/*aside {
     border-left: 1px solid #000000;
     padding: 0.5rem 1.5rem;
     float: right;
     display: grid;
 }
 
-aside[b-q65x1xvy2i]  .Aside-Title {
+aside ::deep .Aside-Title {
     width: 100%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
-aside[b-q65x1xvy2i]  h3 {
+aside ::deep h3 {
     margin: 0.5rem 0rem;
 }
 
-aside[b-q65x1xvy2i]  .card {
+aside ::deep .card {
     justify-content: center !important;
 }
 
-aside[b-q65x1xvy2i]  .card {
+aside ::deep .card {
     margin: 0.3rem 0rem;
 }
 
-aside[b-q65x1xvy2i]  .card-header {
+aside ::deep .card-header {
     background-color: lightslategray;
 }
 
-aside[b-q65x1xvy2i]  .card-header h5{
+aside ::deep .card-header h5{
     display: flex;
     justify-content: center;
-}
+}*/
 /* /Components/FooterComponent.razor.rz.scp.css */
-.FooterBar[b-rnr9jka34z]{
+/*.FooterBar{
     width: 100vw;
     position: relative;
     background-color: lightgray;
@@ -77,41 +77,41 @@ aside[b-q65x1xvy2i]  .card-header h5{
     overflow: hidden;
 }
 
-.FooterBar[b-rnr9jka34z]  #fontawesomeicon{
+.FooterBar ::deep #fontawesomeicon{
     text-decoration: none;
     color: #000000;
     display: inline-block;
 }
 
-.FooterBar[b-rnr9jka34z]  .block{
+.FooterBar ::deep .block{
     width: 100px;
     display: inline-block;
 }
 
-.FooterBar[b-rnr9jka34z]  #bootstrapicon{
+.FooterBar ::deep #bootstrapicon{
     text-decoration: none;
     color: #000000;
     display: inline-block;
 }
 
-.FooterBar[b-rnr9jka34z]  #linkedinicon{
+.FooterBar ::deep #linkedinicon{
     text-decoration: none;
     color: #000000;
     display: inline-block;
 }
 
-.FooterBar[b-rnr9jka34z]  a img{
+.FooterBar ::deep a img{
     width: 40px;
     height: 40px;
 }
 
-.FooterBar[b-rnr9jka34z]  .copyright{
+.FooterBar ::deep .copyright{
     justify-content: center;
     color: #000000;
     display: inline-flex;
-}
+}*/
 /* /Components/HeaderBar.razor.rz.scp.css */
-.top-row[b-ypyhudfenq] {
+/*.top-row {
     border-bottom: 1px solid #000000;
     justify-content: flex-start;
     width: 100vw;
@@ -120,7 +120,7 @@ aside[b-q65x1xvy2i]  .card-header h5{
     position: relative;
 }
 
-.navbar-logo[b-ypyhudfenq]{
+.navbar-logo{
     width: 10vw;
     height: 100%;
     margin: 0rem 1rem;
@@ -128,7 +128,7 @@ aside[b-q65x1xvy2i]  .card-header h5{
     border: 0rem 1rem;
 }
 
-img[b-ypyhudfenq]{
+img{
     border-radius: 50%;
     display: inline-block;
     padding: 1rem 1rem;
@@ -139,7 +139,7 @@ img[b-ypyhudfenq]{
     height: 150px;
 }
 
-h1[b-ypyhudfenq]{
+h1{
     display: block;
     font-size: 4.5rem;
     padding: 0.1rem;
@@ -148,7 +148,7 @@ h1[b-ypyhudfenq]{
     position: relative;
 }
 
-h2[b-ypyhudfenq] {
+h2 {
     display: block;
     padding: 0.1rem;
     margin: 0.5rem 5rem;
@@ -156,7 +156,7 @@ h2[b-ypyhudfenq] {
     position: relative;
 }
 
-.banner[b-ypyhudfenq]{
+.banner{
     z-index: -1;
     border-radius: 0%;
     margin: 0;
@@ -165,9 +165,9 @@ h2[b-ypyhudfenq] {
     width: 100vw;
     opacity: 0.6;
     position: absolute;
-}
+}*/
 /* /Components/NavigationComponent.razor.rz.scp.css */
-.NavigationBar[b-3s56jp5tbh] {
+/*.NavigationBar {
     width: 100vw;
     background-color: black;
     display: inline-flex;
@@ -177,7 +177,7 @@ h2[b-ypyhudfenq] {
     justify-content: center;
 }
 
-[b-3s56jp5tbh] a {
+::deep a {
     height: 100%;
     width: auto;
     padding: 0.5rem 0.5rem;
@@ -186,138 +186,138 @@ h2[b-ypyhudfenq] {
     color: gray;
 }
 
-[b-3s56jp5tbh] .active {
+::deep .active {
     color: antiquewhite;
 }
 
-[b-3s56jp5tbh] a:hover{
+::deep a:hover{
     color: red;
     background-color: white;
     border-radius: 5%;
-}
+}*/
 /* /Components/ProjectComponent.razor.rz.scp.css */
-aside[b-84ampomkar]{
+/*aside{
     border-right: 1px solid #000000;
     padding: 0.5rem 1.5rem;
     float: left;
     display: grid;
 }
 
-aside[b-84ampomkar]  .Aside-Title{
+aside ::deep .Aside-Title{
     width: 100%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
-aside[b-84ampomkar]  h3{
+aside ::deep h3{
     margin: 0.5rem 0rem;
 }
 
-aside[b-84ampomkar]  .card{
+aside ::deep .card{
     justify-content: center !important;
 }
 
-aside[b-84ampomkar]  .card{
+aside ::deep .card{
     margin: 0.3rem 0rem;
 }
 
-aside[b-84ampomkar]  .card-header {
+aside ::deep .card-header {
     background-color: lightslategray;
 }
 
-aside[b-84ampomkar]  .card-header h5{
+aside ::deep .card-header h5{
     display: flex;
     justify-content: center;
-}
+}*/
 /* /MainLayout.razor.rz.scp.css */
-body[b-sp2zdgxnur]{
+/*body{
     overflow: hidden;
 }
 
-.page[b-sp2zdgxnur]{
+.page{
     position: relative;
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
-.HeaderContent[b-sp2zdgxnur] {
+.HeaderContent {
     position: relative;
 }
 
-.NavigationMenu[b-sp2zdgxnur]{
+.NavigationMenu{
     position: relative;
 }
 
-main[b-sp2zdgxnur]{
+main{
     position: relative;
     margin: 0.2rem 0rem;
 }
 
-.FooterContent[b-sp2zdgxnur]{
+.FooterContent{
     position: relative;
-}
+}*/
 /* /Pages/AboutPageComponent.razor.rz.scp.css */
-.Article-Title[b-44yvxf54iw] {
+/*.Article-Title {
     width: 100%;
     padding: 0.2rem 0rem;
     justify-content: center;
     display: flex;
 }
 
- .content[b-44yvxf54iw]{
+ .content{
     width: 100%;
     display: flex;
     padding: 0.2rem 0.2rem;
 }
 
-.row[b-44yvxf54iw]  .left{
+.row ::deep .left{
     border-right: 1px solid #000000;
     padding: 0.2rem 2rem;
     display: block;
     overflow: scroll;
 }
 
-.row[b-44yvxf54iw]  .right{
+.row ::deep .right{
     border-left: 1px solid #000000;
     padding: 0.2rem 2rem;
     display: block;
 }
 
-.row[b-44yvxf54iw]  section{
+.row ::deep section{
     padding: 0.2rem 2rem;
     display: block;
 }
 
-.row[b-44yvxf54iw]  .Sub-Title{
+.row ::deep .Sub-Title{
     justify-content: center;
     display: flex;
 }
 
-.row[b-44yvxf54iw]  .card{
+.row ::deep .card{
     margin: 0.6rem 0rem;
 }
 
-.row[b-44yvxf54iw]  .card-header{
+.row ::deep .card-header{
     background-color: lightslategray;
 }
 
-.row[b-44yvxf54iw]  .left .card-header h5{
+.row ::deep .left .card-header h5{
     display: flex;
     font-weight: bold;
     justify-content: center;
 }
 
-article[b-44yvxf54iw]  .left .card-body h6{
+article ::deep .left .card-body h6{
     display: flex;
     font-weight: bold;
     justify-content: center;
-}
+}*/
 /* /Pages/Index.razor.rz.scp.css */
-@media only screen and (max-width: 768)
+/*@media only screen and (max-width: 768)
 {
-    .MainContent[b-hk4t29bu80] {
+    .MainContent {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
         width: 100%;
@@ -327,7 +327,7 @@ article[b-44yvxf54iw]  .left .card-body h6{
 
 @media only screen and (max-width: 1044) 
 {
-    .MainContent[b-hk4t29bu80] {
+    .MainContent {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
         width: 100%;
@@ -338,7 +338,7 @@ article[b-44yvxf54iw]  .left .card-body h6{
 
 @media only screen and (max-width: 1920) 
 {
-    .MainContent[b-hk4t29bu80] {
+    .MainContent {
         padding-left: 2rem !important;
         padding-right: 2rem !important;
         width: 100%;
@@ -347,4 +347,4 @@ article[b-44yvxf54iw]  .left .card-body h6{
     }
 
 }
-
+*/
