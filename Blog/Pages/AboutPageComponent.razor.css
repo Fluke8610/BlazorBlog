@@ -1,4 +1,4 @@
-﻿.Article-Title {
+﻿/*.Article-Title {
     width: 100%;
     padding: 0.2rem 0rem;
     justify-content: center;
@@ -52,4 +52,4 @@ article ::deep .left .card-body h6{
     display: flex;
     font-weight: bold;
     justify-content: center;
-}
+}*/
