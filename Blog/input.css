@@ -129,7 +129,11 @@ body {
     }
 
     .card-title {
-        @apply w-full h-auto px-2 py-2 text-2xl font-bold;
+        @apply w-full h-auto px-2 py-2 text-2xl font-semibold;
+    }
+
+    .card-title h6 {
+        @apply text-xl font-semibold;
     }
 
     .card-body p {
