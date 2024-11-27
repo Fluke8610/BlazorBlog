@@ -1,0 +1,1 @@
+tailwindcss.exe -i input.css -o "C:\Users\lanky\source\repos\Fluke8610\BlazorBlog\Blog\wwwroot\css\output.css" --watch

@@ -13,59 +13,66 @@ body {
     border-radius: 0.5em;
 }
 
+.rounded-3 {
+    border-radius: 0.75em;
+}
+
+.rounded-4 {
+    border-radius: 1em;
+}
+
+.rounded-8 {
+    border-radius: 2em;
+}
 
 @layer base {
     
     .page {
-        @apply w-full h-full flex flex-col;
-    }
-    
-    .main-content {
-        background-color: lightgray;
+        @apply w-full h-full flex flex-col bg-off-white;
     }
 
     .main-content {
-        @apply w-full h-full grid grid-cols-4 px-4 py-6;
+        @apply w-full h-full min-h-dvh grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row auto-rows-max gap-20 px-4 py-6 bg-mid-blue;
     }
 
-    .top-row {
-        @apply w-full h-auto grid grid-rows-1 grid-cols-12 content-start items-start px-2 py-2 relative;
-    }
-
-    .banner {
-        @apply w-full h-full absolute opacity-50 -z-50;
-    }
-
-    .navbar-logo img {
-        @apply h-auto col-span-2 inline-block opacity-100 rounded-2 z-10;
-    }
-
-    .header-title {
-        @apply w-full h-full grid grid-rows-2 col-span-10 block z-10;
-    }
-
-    .header-title h1 {
-        @apply w-full h-full block text-center text-5xl;
-    }
-
-    .header-title h2 {
-        @apply w-full h-full block text-center text-3xl;
+    .main-title {
+        @apply w-full h-auto px-8 py-4 -mb-20 xs:text-5xl md:text-4xl font-bold xs:col-span-1 md:col-span-2 lg:col-span-4 text-center text-white bg-dark-blue rounded border-2 border-white;
     }
 
     .nav-bar {
-        @apply w-full h-auto flex flex-row px-4 py-2;
+        @apply w-full h-auto flex flex-row px-4 py-2 bg-eggshell-blue;
     }
 
     .nav-link {
-        @apply text-xl text-center px-4 py-2 shrink bg-blue-100;
+        @apply xs:text-2xl md:text-xl text-center px-4 py-2 shrink items-center self-center;
     }
 
     .nav-link:hover {
-        @apply text-white bg-blue-500;
+        @apply text-white bg-cool-gray;
     }
 
     .nav-link:not(:last-child) {
         @apply border-r-2 border-white;
+    }
+
+    .navbar-logo img {
+        @apply h-auto flex grow inline-block opacity-100 rounded-3 z-10;
+    }
+
+    .header-title {
+        @apply w-full h-full py-4 px-8 flex flex-col grow shrink z-10 items-center self-center;
+    }
+
+    .header-title h1 {
+        @apply w-full h-full items-center self-center text-center xs:text-3xl lg:text-5xl font-bold;
+    }
+
+    .header-title h2 {
+        @apply w-full h-full block text-center text-4xl font-semibold;
+    }
+
+    .breadcrumb {
+        @apply w-full h-12 px-8 py-2 flex text-left text-white bg-light-blue;
     }
 
     .content {
@@ -101,19 +108,19 @@ body {
     }
 
     .aside-title h3 {
-        @apply w-auto bg-gray-600 px-6 py-4 border-0;
+        @apply w-auto bg-cool-gray px-6 py-4 border-0;
     }
 
     .article-text-block {
-        @apply w-full h-auto px-4 py-2 bg-gray-400 text-base border-2 border-white mt-2;
+        @apply w-full h-auto px-4 py-2 bg-red-pantone text-base border-2 border-white mt-2;
     }
 
     .article-text-block p {
-        @apply w-full h-full px-4 py-2 bg-gray-200 rounded-2 text-start;
+        @apply w-full h-full px-4 py-2 bg-fire-engine-red rounded-2 text-start;
     }
 
     .card {
-        @apply w-full h-auto p-4 border-2 mt-2 border-white bg-gray-400 text-xl;
+        @apply w-full h-full flex flex-col p-4 border-2 mt-2 border-white bg-off-white text-xl rounded-2 shadow-lg;
     }
 
     .card-img-top {
@@ -121,11 +128,11 @@ body {
     }
 
     .card-header {
-        @apply w-full h-auto p-2 bg-gray-300 rounded-2 text-center text-2xl;
+        @apply w-full p-2 bg-dark-blue text-white rounded-2 text-center xs:text-4xl md:text-2xl;
     }
 
     .card-body {
-        @apply w-full h-auto px-4 py-4 bg-gray-200 rounded-2 mt-2 text-base;
+        @apply w-full h-full px-4 py-4 bg-anti-flash-white rounded-2 mt-2 xs:text-3xl md:text-base text-dark-blue;
     }
 
     .card-title {
@@ -137,7 +144,7 @@ body {
     }
 
     .card-body p {
-        @apply w-full h-auto px-2 py-2 text-base;
+        @apply w-full h-auto px-2 py-2 xs:text-3xl md:text-base;
     }
 
     .footer-bar {
